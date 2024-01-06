@@ -1,0 +1,98 @@
+.regester{
+    position: relative;
+    height: 800px;
+    background: url("https://www.pcworld.com/wp-content/uploads/2023/11/Netflix-Hintergrund.jpg?quality=50&strip=all") center no-repeat;
+    background-size: cover;
+}
+.regesterscreen_logo{
+    position: fixed;
+    left: 0;
+    width: 150px;
+    object-fit: contain;
+    padding-left: 20px;
+}
+.regesterscreen_button{
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #e50914;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+.regesterscreen_gradient{
+    width: 100%;
+    z-index: 1;
+    height: 800px;
+    background: rgba(0,0,0,0.4);
+    background-image: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.8) 0,
+        rgba(0, 0, 0, 0) 60%,
+        rgba(0, 0, 0, 0.8) 100%
+    );
+}
+.regesterscreen_body{
+    position: absolute;
+}
+.regesterscreen{
+    position: absolute;
+    max-width: 300px;
+    padding: 50px;
+    top: 100px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(0, 0, 0, 0.85);
+}
+.regesterscreen> form{
+    display: grid;
+    flex-direction: column;
+}
+.regesterscreen > form > h1{
+    text-align: left;
+    margin-bottom: 25px;
+    color: white;
+}
+.regesterscreen > form > input{
+    outline-width: 0;
+    height: 40px;
+    margin-bottom: 14px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 15px;
+}
+.regesterscreen > form  > p {
+    color: red;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.regesterscreen > form > button{
+    padding: 16px 20px;
+    font-size: 1rem;
+    color: white;
+    border-radius: 5px;
+    background-color: #e50914;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.regesterscreen h4{
+    text-align: left;
+    margin-top: 20px;
+}
+.regesterscreen_gray{
+    color: gray;
+}
+.signupscreen_link{
+    color: white;
+}
+.regesterscreen_link:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
